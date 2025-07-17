@@ -94,7 +94,7 @@ public:
         return;
     }
 
-    // Case 2: If the node to be deleted is in the middle of the list
+    // Case 2: If the node to be deleted is in the middle of the list..
     student* current = head;
     student* prev = nullptr;
     while (current != nullptr && current->rollNumber != RollNumber) {
