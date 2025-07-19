@@ -43,7 +43,7 @@ public:
     }
 
     short temp = 0;
-    cout << "Press 1 to update name, 2 to update marks, 3 to update both name and marks: ";
+    cout << "Press 1 to update name, 2 to update marks, 3 to update both name and marks:   ";
     cin >> temp;
     if (temp==1){
          string newName;
