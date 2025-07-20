@@ -85,7 +85,7 @@ public:
         return;
     }
 
-    // Case 1: If the node to be deleted is the head node...
+    // Case 1: If the node to be deleted is the head node.....
     if (head->rollNumber == RollNumber) {
         student* temp = head;
         head = head->next;
